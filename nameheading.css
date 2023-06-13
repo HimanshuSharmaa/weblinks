@@ -1,0 +1,219 @@
+
+.namehd h2 {
+    margin: auto;
+
+    margin: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 10vw;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Meow Script', cursive;
+    animation: lights 5s 750ms linear infinite;
+
+
+}
+
+
+
+
+@keyframes lights {
+    0% {
+        color: hsl(230, 40%, 80%);
+        /* color: rgb(212,175,55); */
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.2),
+            0 0 0.125em hsla(320, 100%, 60%, 0.3),
+            -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+            1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+
+    30% {
+        /* color: hsl(230, 80%, 90%); */
+        color: rgb(212, 175, 55);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.5),
+            0 0 0.125em hsla(320, 100%, 60%, 0.5),
+            -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+            0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+
+    40% {
+        /* color: hsl(230, 100%, 95%); */
+        color: rgb(212, 175, 55);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.5),
+            0 0 0.125em hsla(320, 100%, 90%, 0.5),
+            -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+            0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+
+    70% {
+        color: hsl(230, 80%, 90%);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.5),
+            0 0 0.125em hsla(320, 100%, 60%, 0.5),
+            0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+            -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+
+    100% {
+        color: hsl(230, 40%, 80%);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.2),
+            0 0 0.125em hsla(320, 100%, 60%, 0.3),
+            1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+            -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+
+}
+
+
+
+.namehdb {
+
+    text-align: center;
+
+
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+
+}
+
+.namehd2 h2 {
+
+    font-size: 2vw;
+    margin-top: 10px;
+    color: aliceblue;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+
+
+}
+
+
+
+.cssanimation,
+.cssanimation span {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+
+}
+
+.cssanimation span {
+    display: inline-block
+}
+
+.fadeInBottom {
+    animation-name: fadeInBottom
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+
+    }
+
+    to {
+        opacity: 1;
+        color: aliceblue;
+    }
+}
+
+
+
+
+
+
+@media(max-width:1450px) {
+
+    .namehd h2 {
+
+        margin-top: 100px;
+
+        font-size: 10vw;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 0px;
+
+        font-family: 'Meow Script', cursive;
+        animation: lights 5s 750ms linear infinite;
+    }
+
+
+
+    .namehd2 h2 {
+
+        font-size: 2.5vw;
+        margin-top: 10px;
+        color: aliceblue;
+        font-weight: 700;
+        text-align: center;
+        font-family: 'Outfit', sans-serif;
+
+
+    }
+
+
+
+
+}
+
+
+@media(max-width:1000px) {
+
+    .namehd h2 {
+
+        margin-top: 100px;
+
+        font-size: 10vw;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 0px;
+
+        font-family: 'Meow Script', cursive;
+        animation: lights 5s 750ms linear infinite;
+    }
+
+}
+
+@media(max-width:750px) {
+
+    .namehd h2 {
+        margin: 10px;
+        margin-top: 50px;
+        margin-right: 20px;
+
+        font-size: 18vw;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 0px;
+
+        font-family: 'Meow Script', cursive;
+        animation: lights 5s 750ms linear infinite;
+    }
+
+
+    .namehd2 h2 {
+
+        font-size: 5vw;
+        margin-top: 30px;
+        color: aliceblue;
+        font-weight: 700;
+        text-align: center;
+        font-family: 'Outfit', sans-serif;
+
+
+    }
+
+
+
+
+}
+
